@@ -1,0 +1,145 @@
+{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1800px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 36px;
+	line-height: 46px;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin:100px auto;
+} 
+.red{
+	width: 160px;
+	height: 160px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(258px, 125px);
+	z-index: 1;
+	margin:5px auto;
+}
+.pic{
+	width: 150px;
+	position: fixed;
+	top: 50%;
+	right: -105px;
+	padding: 10px 0px 0px;
+	transition: 0.01s;
+}
+.pic:hover{
+	right: 4px;
+	cursor: pointer;
+}
+.twitter{
+	width: 150px;
+	position: fixed;
+	top: 57%;
+	right: -105px;
+	padding: 20px 0px 0px;
+	transition: 0.01s;
+}
+.twitter:hover{
+	right: 4px;
+	cursor: pointer;
+}
+.download{
+	width: 150px;
+	position: fixed;
+	top: 64%;
+	right: -105px;
+	padding: 30px 0px 0px;
+	transition: 0.01s;
+}
+.download:hover{
+	right: 4px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 200px 0px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	margin: 0px 15px;
+	border-radius: 100%;
+	transition: 0.01s;
+}
+ 		}
+.social-icons li a:hover{
+	background: black;
+	color: white;
+}
+.fav{
+	background:DodgerBlue;	
+}
+.fav:hover{
+	background: black;
+	color: white;
+}
+.fav1{
+	background:red;
+}
+.fav1:hover{
+	background: black;
+	color: white;
+	}
+
+.ff{
+ 	background-color:#00FF00; !important;	
+}
+.ff:hover{
+	background: black;
+	color: white;
+}
+.ff1{
+	background-color:#d62976; !important;
+}
+.ff1:hover{
+	background: black;
+	color: white;
+}
+.ff2{
+	background-color:DodgerBlue; !important;
+}
+.ff2:hover{
+	background:white;
+	color: black;
+}
